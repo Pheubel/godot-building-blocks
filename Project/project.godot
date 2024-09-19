@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 AppConfig="*res://app_config/app_config.tscn"
-SceneManager="*res://scene_manager/scene_manager.gd"
+SceneManager="*res://scene_manager/scene_manager.tscn"
 
 [display]
 

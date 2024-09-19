@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7vnv7kcmdsyw"]
+
+[ext_resource type="Script" path="res://scene_manager/scene_manager.gd" id="1_o15hb"]
+[ext_resource type="Script" path="res://scene_manager/scene_transition_manager.gd" id="2_53s5l"]
+
+[node name="SceneManager" type="Node"]
+script = ExtResource("1_o15hb")
+
+[node name="SceneTransitionManager" type="CanvasLayer" parent="."]
+layer = 32
+script = ExtResource("2_53s5l")
