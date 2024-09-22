@@ -8,7 +8,7 @@ signal scene_switch_process_started
 signal scene_loading(percentage: float)
 ## Sends an update signalling that the scene is done loading and can be swapped in.
 signal scene_finished_loading
-## Signals that 
+## Signals that indicates the scene switch has taken place. After this the post switch phase starts.
 signal scene_switched
 ## Dictates that the process of switching between scenes and transitions between them has ended.
 signal scene_switch_process_completed
