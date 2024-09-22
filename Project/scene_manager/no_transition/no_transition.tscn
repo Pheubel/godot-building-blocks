@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://svn7fbcjh8b2"]
+
+[ext_resource type="Script" path="res://scene_manager/scene_transition_base.gd" id="1_2lb5a"]
+
+[node name="NoTransition" type="Node"]
+script = ExtResource("1_2lb5a")
