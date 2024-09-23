@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://c8ovkvm5mxl5p"]
-
-[ext_resource type="Script" path="res://app_config/app_config.gd" id="1_12en5"]
-
-[node name="AppConfig" type="Node"]
-script = ExtResource("1_12en5")
